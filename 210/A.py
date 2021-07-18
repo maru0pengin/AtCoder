@@ -1,9 +1,8 @@
-A, B = map(int, input().split())
+N, A, X, Y = map(int, input().split())
 
-max = A*6
-min = 1*A
+sub = N - A
 
-if B <= max and B >= min:
-  print("Yes")
-else:
-  print("No")
+if sub <= 0:
+  print(X*N)
+else :
+  print(X*A + sub*Y)
