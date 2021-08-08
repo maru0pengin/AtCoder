@@ -1,5 +1,4 @@
 
-# サンプルは通るが正解ではない
 #subject = ['a','b','c']
 subject = ['c','h','o','k','u','d','a','i']
 s = list(input())
