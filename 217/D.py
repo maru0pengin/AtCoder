@@ -33,6 +33,7 @@ for i in range(Q):
   if c[i] == 1:
     sum = 0
     for j in range(len(wood)):
+      
       sum += wood[j]
       if sum >= x[i]:
         sum -= wood[j]
