@@ -5,6 +5,7 @@ for _ in range(N):
     a, b = map(int, input().split())
     AB.append([a, b])
 
+
 totalTime = 0
 halfTime = 0
 
