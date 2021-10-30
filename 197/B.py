@@ -8,7 +8,7 @@ for _ in range(H):
     S.append(list(input()))
 
 
-print(S)
+# print(S)
 
 result = 1
 
@@ -24,8 +24,7 @@ while True:
     else:
         break
 
-
-print(result)
+# print(result)
 # した
 i = 1
 while True:
@@ -38,7 +37,7 @@ while True:
     else:
         break
 
-print(result)
+# print(result)
 #　右
 i = 1
 while True:
@@ -52,7 +51,7 @@ while True:
         break
 # 左
 
-print(result)
+# print(result)
 i = 1
 while True:
     if Y-i >= 0:
