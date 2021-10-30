@@ -2,8 +2,10 @@ def dfs(node, past):
     v_in = [s for s in v if 1 in s and not past in s]
     if len(v_in) == 0:
         return
-    else まだ途中なら:
-    　　　　処理内容
+    else:
+
+
+　　
 
 
 M = int(input())
